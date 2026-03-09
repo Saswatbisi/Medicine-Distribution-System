@@ -1,0 +1,121 @@
+Create a modern full-stack web application called “Medicine Distribution System” that helps distribute unused medicines to needy people and also allows users to buy medicines at low and affordable prices.
+
+Objective
+
+The platform should allow individuals to donate leftover or unused medicines and enable NGOs or verified users to distribute them to needy communities, improving accessibility to essential medicines.
+
+Core Features
+
+User Authentication
+
+Secure user registration and login system
+
+Role-based access (Donor, Buyer, NGO/Admin)
+
+Email or OTP verification for security
+
+Medicine Donation Module
+
+Users can donate unused or leftover medicines
+
+Form fields:
+
+Medicine name
+
+Quantity
+
+Expiry date
+
+Upload medicine image
+
+Pickup location
+
+System checks expiry validity before accepting donations
+
+Medicine Marketplace
+
+Users can buy medicines at low prices
+
+Display available medicines with:
+
+Name
+
+Quantity
+
+Price
+
+Expiry date
+
+Seller/NGO information
+
+Real-Time Inventory Management
+
+Track available medicines
+
+Automatically update inventory when medicines are donated or purchased
+
+Filter medicines by category (pain relief, antibiotics, vitamins, etc.)
+
+Distribution Tracking
+
+Track which NGO distributes medicines to which communities
+
+Status updates such as:
+
+Pending
+
+Approved
+
+Distributed
+
+Admin/NGO Dashboard
+
+Verify users and donations
+
+Manage medicine inventory
+
+Monitor distribution activities
+
+Remove expired medicines
+
+Search and Filter System
+
+Search medicines by name
+
+Filter by category, price, and availability
+
+Responsive UI
+
+Clean, modern interface
+
+Mobile-friendly design
+
+Dashboard-style layout
+
+Tech Stack
+
+Frontend:
+
+React.js / Next.js
+
+Tailwind CSS or Bootstrap
+
+Backend:
+
+Node.js with Express
+
+Database:
+
+MongoDB
+
+Additional Features:
+
+Image upload for medicines
+
+Notification system for donation approvals
+
+Secure API for inventory management
+
+Expected Outcome
+
+Develop a full-stack web application that streamlines medicine distribution from NGOs to needy communities, improving logistical efficiency. The system should support real-time inventory management, secure user verification, and transparent distribution tracking
