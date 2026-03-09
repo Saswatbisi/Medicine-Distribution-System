@@ -98,7 +98,7 @@ export default function Marketplace() {
             <Card key={med.id} className="overflow-hidden flex flex-col group">
               <div className="aspect-[4/3] bg-muted relative overflow-hidden">
                 <img
-                  src={`/src/assets/${med.image}`}
+                  src={`/${med.image}`}
                   alt={med.name}
                   className="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />

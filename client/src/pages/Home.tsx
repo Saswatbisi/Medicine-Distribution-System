@@ -38,7 +38,7 @@ export default function Home() {
           </div>
           <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
             <img 
-              src="/src/assets/hero.jpg" 
+              src="/hero.jpg" 
               alt="Medical Professionals" 
               className="absolute inset-0 w-full h-full object-cover"
             />
