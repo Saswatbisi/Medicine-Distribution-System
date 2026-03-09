@@ -5,12 +5,19 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 
+import Navbar from "@/components/layout/Navbar";
+import Home from "@/pages/Home";
+import Donate from "@/pages/Donate";
+import Marketplace from "@/pages/Marketplace";
+import Dashboard from "@/pages/Dashboard";
+
 function Router() {
   return (
     <Switch>
-      {/* Add pages below */}
-      {/* <Route path="/" component={Home}/> */}
-      {/* Fallback to 404 */}
+      <Route path="/" component={Home} />
+      <Route path="/donate" component={Donate} />
+      <Route path="/marketplace" component={Marketplace} />
+      <Route path="/dashboard" component={Dashboard} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -20,8 +27,13 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
+        <div className="min-h-screen flex flex-col font-sans">
+          <Navbar />
+          <main className="flex-1">
+            <Router />
+          </main>
+        </div>
         <Toaster />
-        <Router />
       </TooltipProvider>
     </QueryClientProvider>
   );
