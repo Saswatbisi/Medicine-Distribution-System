@@ -10,6 +10,7 @@ import Home from "@/pages/Home";
 import Donate from "@/pages/Donate";
 import Marketplace from "@/pages/Marketplace";
 import Dashboard from "@/pages/Dashboard";
+import SignIn from "@/pages/SignIn";
 
 function Router() {
   return (
@@ -18,6 +19,7 @@ function Router() {
       <Route path="/donate" component={Donate} />
       <Route path="/marketplace" component={Marketplace} />
       <Route path="/dashboard" component={Dashboard} />
+      <Route path="/signin" component={SignIn} />
       <Route component={NotFound} />
     </Switch>
   );

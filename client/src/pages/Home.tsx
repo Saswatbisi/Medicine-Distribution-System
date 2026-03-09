@@ -104,9 +104,11 @@ export default function Home() {
           <p className="text-primary-foreground/80 text-lg">
             Join thousands of donors and NGOs working together to ensure no usable medicine goes to waste while people are in need.
           </p>
-          <Button size="lg" variant="secondary" className="gap-2 text-primary font-bold">
-            Create an Account <ArrowRight className="h-4 w-4" />
-          </Button>
+          <Link href="/signin">
+            <Button size="lg" variant="secondary" className="gap-2 text-primary font-bold">
+              Create an Account <ArrowRight className="h-4 w-4" />
+            </Button>
+          </Link>
         </div>
       </section>
     </div>

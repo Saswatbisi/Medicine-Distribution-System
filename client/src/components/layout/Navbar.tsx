@@ -37,10 +37,14 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
-          <Button variant="outline" className="hidden sm:flex" size="sm">
-            Sign In
-          </Button>
-          <Button size="sm">Get Started</Button>
+          <Link href="/signin">
+            <Button variant="outline" className="hidden sm:flex" size="sm">
+              Sign In
+            </Button>
+          </Link>
+          <Link href="/signin">
+            <Button size="sm">Get Started</Button>
+          </Link>
         </div>
       </div>
     </nav>
